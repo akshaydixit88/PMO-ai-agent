@@ -30,8 +30,8 @@ This project automates routine PMO tasks such as collecting status updates from 
 
 ## ⚙️ Setup Instructions
 
-1️⃣ Clone the repo
 ```bash
+1️⃣ Clone the repo
 git clone https://github.com/akshaydixit88/PMO-ai-agent.git
 cd PMO-ai-agent
 
@@ -81,10 +81,12 @@ The LLM parses the content into structured JSON:
 These records are saved into a local database.
 On a defined date, the agent generates an executive summary combining all updates.
 
-🔮 Roadmap
+---
+
+**## 🔮 Roadmap**
 Adding Microsoft/Outlook integration
 Web dashboard for adding new programs and workstream owners 
 
 
-📜 License
+**## 📜 License**
 MIT License
