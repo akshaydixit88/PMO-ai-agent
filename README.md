@@ -68,7 +68,12 @@ token.json
 6️⃣ Run the agent
 python scheduler.py
 
-🧩 How It Works
+
+```
+---
+
+## 🧩 How It Works
+
 The agent runs on a set schedule and sends update requests to program owners via Gmail.
 Incoming responses are automatically fetched using the Gmail API.
 The LLM parses the content into structured JSON:
@@ -81,10 +86,8 @@ The LLM parses the content into structured JSON:
 These records are saved into a local database.
 On a defined date, the agent generates an executive summary combining all updates and saves it in the powerpoint template provided
 
-```
 ---
-
-**## 🔮 Roadmap**
+## 🔮 Roadmap
 
 - Add Microsoft, Outlook, Webex, Slack integration
 - Fix the logic for emailing only delinquient users the reminder
@@ -92,6 +95,7 @@ On a defined date, the agent generates an executive summary combining all update
 - Improve the prompt for executive summary generation
 
 
+---
 
-**## 📜 License**
+## 📜 License
 MIT License
