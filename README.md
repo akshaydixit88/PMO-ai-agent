@@ -2,7 +2,7 @@
 
 An AI-powered Program Management Office (PMO) assistant that automates status updates, parses responses, and generates executive summaries — this is an MVP built over a weekend using Python and LLMs.
 
-🎥 Demo: 
+🎥 Overview: Link (tbd)
 
 
 ## 🚀 Overview
