@@ -85,8 +85,12 @@ On a defined date, the agent generates an executive summary combining all update
 ---
 
 **## 🔮 Roadmap**
-Adding Microsoft/Outlook integration
-Web dashboard for adding new programs and workstream owners 
+
+- Add Microsoft, Outlook, Webex, Slack integration
+- Fix the logic for emailing only delinquient users the reminder
+- Create a web dashboard for adding new programs, workstream owners and setting the schedule   
+- Improve the prompt for executive summary generation
+
 
 
 **## 📜 License**
