@@ -13,7 +13,7 @@ This project automates routine PMO tasks such as collecting status updates from 
 - Sends automated email requests for program updates. Reminders to delinquients 
 - Reads and parses Gmail responses using LLM → structured JSON (status, risks, next steps)  
 - Stores parsed data into a local database  
-- Generates an executive summary report on a set schedule  
+- Generates an executive summary powerpoint on a set schedule  
 
 ---
 
@@ -79,7 +79,7 @@ The LLM parses the content into structured JSON:
   "risks": "Dependency on vendor X"
 }
 These records are saved into a local database.
-On a defined date, the agent generates an executive summary combining all updates.
+On a defined date, the agent generates an executive summary combining all updates and saves it in the powerpoint template provided
 
 ```
 ---
