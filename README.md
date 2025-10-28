@@ -81,6 +81,7 @@ The LLM parses the content into structured JSON:
 These records are saved into a local database.
 On a defined date, the agent generates an executive summary combining all updates.
 
+exit
 ---
 
 **## 🔮 Roadmap**
